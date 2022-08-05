@@ -1,0 +1,64 @@
+
+
+table,td,tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    transition-duration: 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:default;
+}
+
+
+
+.grande {
+    width: 130px;
+    text-align: center;
+}
+
+table{
+    background-color: black;
+}
+
+table a:hover {
+    font-weight: 900;
+}
+
+table tr:hover{
+    transform: translateY(-5px);
+    background-color: white;
+}
+
+table a {
+    color: black;
+    text-decoration: none;
+}
+
+#topo {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.nordeste {
+    background: green;
+}
+
+.sul {
+    background: red;
+}
+
+.norte {
+    background: yellow;
+}
+
+.norte a{
+    color: black;
+}
+
+.centroeste {
+    background: blue;
+}
+
+.sudeste {
+    background: purple;
+}
